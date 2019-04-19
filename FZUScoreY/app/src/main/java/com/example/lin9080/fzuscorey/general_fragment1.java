@@ -59,10 +59,10 @@ public class general_fragment1 extends Fragment {
         }
         getDataNeed(sub);
         BarChartUtil.initBarChart(barChart,chartBeans);
-        BarChartUtil.showBarChart(barChart,chartBeans,"成绩/占比",Color.BLUE);
+        BarChartUtil.showBarChart(barChart,chartBeans,"成绩/占比",Color.argb(200,0,139,139));
         getClassGrade(term,sub);
         BarChartUtil.initBarChart(barChart2,chartBeans);
-        BarChartUtil.showBarChart(barChart2,chartBeans,"人数占比",Color.CYAN);
+        BarChartUtil.showBarChart(barChart2,chartBeans,"人数占比",Color.argb(200,102,205,170));
     }
     private void getDataNeed(int sub){
         chartBeans.clear();

@@ -8,7 +8,7 @@
     <com.github.mikephil.charting.charts.LineChart
         android:id="@+id/lineChat1"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="400dp">
 
     </com.github.mikephil.charting.charts.LineChart>
 

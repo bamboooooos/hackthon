@@ -69,10 +69,10 @@ public class curve_fragment extends Fragment {
                     mstudent.getScore_5()+mstudent.getScore_6())/6,"第"+term+"学期"));
         }
         chartBeansList.add(chartBeans1);
-        colors[0]=Color.GREEN;
-        circleColors[0]=Color.LTGRAY;
+        colors[0]=Color.argb(200,0,255,127);
+        circleColors[0]=Color.argb(200,0,128,128);
         chartBeansList.add(chartBeans2);
-        colors[1]=Color.DKGRAY;
-        circleColors[1]=Color.RED;
+        colors[1]=Color.argb(200,47,79,79);
+        circleColors[1]=Color.DKGRAY;
     }
 }

@@ -74,10 +74,10 @@ public class analysis_fragment extends Fragment {
                         getDataNeed();
                         break;
                 }
-                RadarChartUtil.initRadarChartUtil(chart,chartBeans,Color.RED,Color.GREEN,"个人优劣势学科分析");
+                RadarChartUtil.initRadarChartUtil(chart,chartBeans,Color.argb(200,0,139,139),Color.argb(200,0,139,139),"个人优劣势学科分析");
             }
         });
-        RadarChartUtil.initRadarChartUtil(chart,chartBeans,Color.RED,Color.GREEN,"个人优劣势学科分析");
+        RadarChartUtil.initRadarChartUtil(chart,chartBeans,Color.argb(200,0,139,139),Color.argb(200,0,139,139),"个人优劣势学科分析");
         return view;
     }
     private void getDataNeed() {

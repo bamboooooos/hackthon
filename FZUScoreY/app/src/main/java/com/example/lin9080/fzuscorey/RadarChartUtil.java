@@ -25,12 +25,12 @@ public class RadarChartUtil {
         Description description=chart.getDescription();
         description.setText(descrip);
         description.setTextSize(30);
-        description.setTextColor(Color.BLUE);
+        description.setTextColor(Color.BLACK);
         description.setEnabled(true);//描述显示
         chart.setWebLineWidth(1f);//边线宽度
-        chart.setWebColor(Color.LTGRAY);//边线色
+        chart.setWebColor(Color.DKGRAY);//边线色
         chart.setWebLineWidthInner(1f);
-        chart.setWebColorInner(Color.LTGRAY);//边线内部颜色
+        chart.setWebColorInner(Color.GRAY);//边线内部颜色
         chart.setWebAlpha(100);
         RelativeLayout.LayoutParams layoutParams =
                 new RelativeLayout.LayoutParams(RelativeLayout.LayoutParams.MATCH_PARENT,

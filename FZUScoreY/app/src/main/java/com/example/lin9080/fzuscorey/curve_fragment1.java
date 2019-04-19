@@ -66,6 +66,6 @@ public class curve_fragment1 extends Fragment {
         chartBeans.add(new ChartBean(sortUtil.getAverage(4),student.getName_4()));
         chartBeans.add(new ChartBean(sortUtil.getAverage(5),student.getName_5()));
         chartBeans.add(new ChartBean(sortUtil.getAverage(6),student.getName_6()));
-        RadarChartUtil.initRadarChartUtil(radarChart,chartBeans, Color.RED,Color.GREEN,"班级内部相对优劣势学科分析");
+        RadarChartUtil.initRadarChartUtil(radarChart,chartBeans, Color.argb(200,0,139,139),Color.argb(200,0,139,139),"班级内部相对优劣势学科分析");
     }
 }
