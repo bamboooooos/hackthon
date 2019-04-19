@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/mon_f2_l1_rg">
+        <RadioButton
+            android:text="第一学期"
+            android:checked="true"
+            android:id="@+id/mon_f2_l1_rb1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:text="第二学期"
+            android:id="@+id/mon_f2_l1_rb2"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:text="第三学期"
+            android:id="@+id/mon_f2_l1_rb3"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:text="第四学期"
+            android:id="@+id/mon_f2_l1_rb4"
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mon_f2_l1_rg"
+        android:orientation="horizontal"
+        android:id="@+id/mon_f2_l2_rg">
+        <RadioButton
+            android:checked="true"
+            android:text="大物语言实践"
+            android:textSize="12sp"
+            android:id="@+id/mon_f2_l2_rb1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"/>
+        <RadioButton
+            android:id="@+id/mon_f2_l2_rb2"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/mon_f2_l2_rb3"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/mon_f2_l2_rb4"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/mon_f2_l2_rb5"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/mon_f2_l2_rb6"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <RadioButton
+            android:id="@+id/mon_f2_l2_rb7"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </RadioGroup>
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@id/mon_f2_l2_rg"
+        android:id="@+id/analysis1RecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp">
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>
